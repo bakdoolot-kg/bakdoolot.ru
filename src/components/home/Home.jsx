@@ -13,18 +13,6 @@ const Home = () => {
 
           <div
             className="home__img"
-            style={{
-              backgroundImage: `url(${profileImage})`,
-              backgroundRepeat: "no-repeat",
-              backgroundPosition: "center",
-              backgroundSize: "cover",
-              boxShadow: "inset 0 0 0 9px rgb(255 255 255 / 30%)",
-              order: "1",
-              justifySelf: "center",
-              width: "300px",
-              height: "300px",
-              animation: "profile__animate 8s ease-in-out infinite 1s",
-            }}
           ></div>
 
           <Data />
