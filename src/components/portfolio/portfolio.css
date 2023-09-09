@@ -1,0 +1,38 @@
+.portfolio__main-text {
+  text-align: center;
+  padding: 1rem 0 4rem 0;
+}
+
+.portfolio__main-text h1 {
+  font-weight: var(--font-thin);
+  font-size: var(--big-font-size);
+}
+
+.portfolio__title {
+  font-size: var(--h3-font-size);
+  color: var(--title-color-dark);
+}
+
+.portfolio__list {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: repeat(3, 1fr);
+  grid-column-gap: 50px;
+  grid-row-gap: 30px;
+}
+
+.portfolio__list-item1 {
+  grid-area: 1 / 1 / 2 / 2;
+}
+
+.portfolio__list-item2 {
+  grid-area: 2 / 2 / 3 / 3;
+}
+
+.portfolio__list-item3 {
+  grid-area: 3 / 1 / 4 / 2;
+}
+
+.portfolio__cover-image {
+  max-width: 25rem;
+}
